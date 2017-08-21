@@ -9,12 +9,15 @@
 /* Begin PBXBuildFile section */
 		697F3E5F1F4B17390014B79D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 697F3E5E1F4B17390014B79D /* main.m */; };
 		697F3E621F4B17390014B79D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 697F3E611F4B17390014B79D /* AppDelegate.m */; };
-		697F3E651F4B17390014B79D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 697F3E641F4B17390014B79D /* ViewController.m */; };
 		697F3E681F4B17390014B79D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 697F3E661F4B17390014B79D /* Main.storyboard */; };
 		697F3E6A1F4B17390014B79D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 697F3E691F4B17390014B79D /* Assets.xcassets */; };
 		697F3E6D1F4B17390014B79D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 697F3E6B1F4B17390014B79D /* LaunchScreen.storyboard */; };
 		697F3E781F4B173A0014B79D /* CTLoveTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 697F3E771F4B173A0014B79D /* CTLoveTests.m */; };
 		697F3E831F4B173A0014B79D /* CTLoveUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 697F3E821F4B173A0014B79D /* CTLoveUITests.m */; };
+		697F3E931F4B19880014B79D /* IVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 697F3E921F4B19880014B79D /* IVC.m */; };
+		9A4AF51B5841EC3C46555917 /* libPods-CTLoveTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8629E872FAA360B024CB21AB /* libPods-CTLoveTests.a */; };
+		9B70E6B9A8CAEA906D6C4DE7 /* libPods-CTLove.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BF6EAD71B9B5D03A38D1F1CB /* libPods-CTLove.a */; };
+		E68D4DE4AA5A0EE5593EDD6F /* libPods-CTLoveUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AF95192C365135569C7E475E /* libPods-CTLoveUITests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,12 +38,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3DE1DB65D4C7994A0EE29434 /* Pods-CTLoveUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CTLoveUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CTLoveUITests/Pods-CTLoveUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		43189289EC9ABAA6DE4FF61E /* Pods-CTLove.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CTLove.release.xcconfig"; path = "Pods/Target Support Files/Pods-CTLove/Pods-CTLove.release.xcconfig"; sourceTree = "<group>"; };
+		4E3F6225A037E5852CD76ACF /* Pods-CTLove.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CTLove.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CTLove/Pods-CTLove.debug.xcconfig"; sourceTree = "<group>"; };
+		696C350234525BE3E0E746D6 /* Pods-CTLoveTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CTLoveTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CTLoveTests/Pods-CTLoveTests.debug.xcconfig"; sourceTree = "<group>"; };
 		697F3E5A1F4B17390014B79D /* CTLove.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CTLove.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		697F3E5E1F4B17390014B79D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		697F3E601F4B17390014B79D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		697F3E611F4B17390014B79D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		697F3E631F4B17390014B79D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		697F3E641F4B17390014B79D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		697F3E671F4B17390014B79D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		697F3E691F4B17390014B79D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		697F3E6C1F4B17390014B79D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -51,6 +56,13 @@
 		697F3E7E1F4B173A0014B79D /* CTLoveUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CTLoveUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		697F3E821F4B173A0014B79D /* CTLoveUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CTLoveUITests.m; sourceTree = "<group>"; };
 		697F3E841F4B173A0014B79D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		697F3E911F4B19880014B79D /* IVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IVC.h; sourceTree = "<group>"; };
+		697F3E921F4B19880014B79D /* IVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IVC.m; sourceTree = "<group>"; };
+		8629E872FAA360B024CB21AB /* libPods-CTLoveTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CTLoveTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		93DE257E0F40A06601383808 /* Pods-CTLoveUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CTLoveUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-CTLoveUITests/Pods-CTLoveUITests.release.xcconfig"; sourceTree = "<group>"; };
+		AF95192C365135569C7E475E /* libPods-CTLoveUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CTLoveUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B4F093E221D48E1EFE148C12 /* Pods-CTLoveTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CTLoveTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-CTLoveTests/Pods-CTLoveTests.release.xcconfig"; sourceTree = "<group>"; };
+		BF6EAD71B9B5D03A38D1F1CB /* libPods-CTLove.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CTLove.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +70,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9B70E6B9A8CAEA906D6C4DE7 /* libPods-CTLove.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +78,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9A4AF51B5841EC3C46555917 /* libPods-CTLoveTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,12 +86,23 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E68D4DE4AA5A0EE5593EDD6F /* libPods-CTLoveUITests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2D23D680C7E7D25ED8E5349E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BF6EAD71B9B5D03A38D1F1CB /* libPods-CTLove.a */,
+				8629E872FAA360B024CB21AB /* libPods-CTLoveTests.a */,
+				AF95192C365135569C7E475E /* libPods-CTLoveUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		697F3E511F4B17390014B79D = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +110,8 @@
 				697F3E761F4B173A0014B79D /* CTLoveTests */,
 				697F3E811F4B173A0014B79D /* CTLoveUITests */,
 				697F3E5B1F4B17390014B79D /* Products */,
+				7310FE43E1572188F425D5A2 /* Pods */,
+				2D23D680C7E7D25ED8E5349E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,10 +128,9 @@
 		697F3E5C1F4B17390014B79D /* CTLove */ = {
 			isa = PBXGroup;
 			children = (
+				697F3E901F4B19360014B79D /* VC */,
 				697F3E601F4B17390014B79D /* AppDelegate.h */,
 				697F3E611F4B17390014B79D /* AppDelegate.m */,
-				697F3E631F4B17390014B79D /* ViewController.h */,
-				697F3E641F4B17390014B79D /* ViewController.m */,
 				697F3E661F4B17390014B79D /* Main.storyboard */,
 				697F3E691F4B17390014B79D /* Assets.xcassets */,
 				697F3E6B1F4B17390014B79D /* LaunchScreen.storyboard */,
@@ -140,6 +166,28 @@
 			path = CTLoveUITests;
 			sourceTree = "<group>";
 		};
+		697F3E901F4B19360014B79D /* VC */ = {
+			isa = PBXGroup;
+			children = (
+				697F3E911F4B19880014B79D /* IVC.h */,
+				697F3E921F4B19880014B79D /* IVC.m */,
+			);
+			path = VC;
+			sourceTree = "<group>";
+		};
+		7310FE43E1572188F425D5A2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4E3F6225A037E5852CD76ACF /* Pods-CTLove.debug.xcconfig */,
+				43189289EC9ABAA6DE4FF61E /* Pods-CTLove.release.xcconfig */,
+				696C350234525BE3E0E746D6 /* Pods-CTLoveTests.debug.xcconfig */,
+				B4F093E221D48E1EFE148C12 /* Pods-CTLoveTests.release.xcconfig */,
+				3DE1DB65D4C7994A0EE29434 /* Pods-CTLoveUITests.debug.xcconfig */,
+				93DE257E0F40A06601383808 /* Pods-CTLoveUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -147,9 +195,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 697F3E871F4B173A0014B79D /* Build configuration list for PBXNativeTarget "CTLove" */;
 			buildPhases = (
+				6332F2F197305A1FFC8E2439 /* [CP] Check Pods Manifest.lock */,
 				697F3E561F4B17390014B79D /* Sources */,
 				697F3E571F4B17390014B79D /* Frameworks */,
 				697F3E581F4B17390014B79D /* Resources */,
+				C7F1C2780086193925F39E03 /* [CP] Embed Pods Frameworks */,
+				6F5EAAA93222C9844A12BD43 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -164,9 +215,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 697F3E8A1F4B173A0014B79D /* Build configuration list for PBXNativeTarget "CTLoveTests" */;
 			buildPhases = (
+				B970C58B1DFF2EF6422DF7A2 /* [CP] Check Pods Manifest.lock */,
 				697F3E6F1F4B173A0014B79D /* Sources */,
 				697F3E701F4B173A0014B79D /* Frameworks */,
 				697F3E711F4B173A0014B79D /* Resources */,
+				78EFAFE64942999409DB2F86 /* [CP] Embed Pods Frameworks */,
+				9BC41FC66367DA3CDBDF77EF /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -182,9 +236,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 697F3E8D1F4B173A0014B79D /* Build configuration list for PBXNativeTarget "CTLoveUITests" */;
 			buildPhases = (
+				5C5A0C9C9DB19306E41FCA9B /* [CP] Check Pods Manifest.lock */,
 				697F3E7A1F4B173A0014B79D /* Sources */,
 				697F3E7B1F4B173A0014B79D /* Frameworks */,
 				697F3E7C1F4B173A0014B79D /* Resources */,
+				0E0CD782744A52F3DF228A2D /* [CP] Embed Pods Frameworks */,
+				F9891907348B0D6D7F764DE6 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -271,12 +328,150 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0E0CD782744A52F3DF228A2D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CTLoveUITests/Pods-CTLoveUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5C5A0C9C9DB19306E41FCA9B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		6332F2F197305A1FFC8E2439 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		6F5EAAA93222C9844A12BD43 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CTLove/Pods-CTLove-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		78EFAFE64942999409DB2F86 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CTLoveTests/Pods-CTLoveTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9BC41FC66367DA3CDBDF77EF /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CTLoveTests/Pods-CTLoveTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B970C58B1DFF2EF6422DF7A2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		C7F1C2780086193925F39E03 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CTLove/Pods-CTLove-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F9891907348B0D6D7F764DE6 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CTLoveUITests/Pods-CTLoveUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		697F3E561F4B17390014B79D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				697F3E651F4B17390014B79D /* ViewController.m in Sources */,
+				697F3E931F4B19880014B79D /* IVC.m in Sources */,
 				697F3E621F4B17390014B79D /* AppDelegate.m in Sources */,
 				697F3E5F1F4B17390014B79D /* main.m in Sources */,
 			);
@@ -425,6 +620,7 @@
 		};
 		697F3E881F4B173A0014B79D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4E3F6225A037E5852CD76ACF /* Pods-CTLove.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = HG4D7RHCA9;
@@ -437,6 +633,7 @@
 		};
 		697F3E891F4B173A0014B79D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 43189289EC9ABAA6DE4FF61E /* Pods-CTLove.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = HG4D7RHCA9;
@@ -449,6 +646,7 @@
 		};
 		697F3E8B1F4B173A0014B79D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 696C350234525BE3E0E746D6 /* Pods-CTLoveTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				DEVELOPMENT_TEAM = HG4D7RHCA9;
@@ -462,6 +660,7 @@
 		};
 		697F3E8C1F4B173A0014B79D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B4F093E221D48E1EFE148C12 /* Pods-CTLoveTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				DEVELOPMENT_TEAM = HG4D7RHCA9;
@@ -475,6 +674,7 @@
 		};
 		697F3E8E1F4B173A0014B79D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3DE1DB65D4C7994A0EE29434 /* Pods-CTLoveUITests.debug.xcconfig */;
 			buildSettings = {
 				DEVELOPMENT_TEAM = HG4D7RHCA9;
 				INFOPLIST_FILE = CTLoveUITests/Info.plist;
@@ -487,6 +687,7 @@
 		};
 		697F3E8F1F4B173A0014B79D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 93DE257E0F40A06601383808 /* Pods-CTLoveUITests.release.xcconfig */;
 			buildSettings = {
 				DEVELOPMENT_TEAM = HG4D7RHCA9;
 				INFOPLIST_FILE = CTLoveUITests/Info.plist;
@@ -516,6 +717,7 @@
 				697F3E891F4B173A0014B79D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		697F3E8A1F4B173A0014B79D /* Build configuration list for PBXNativeTarget "CTLoveTests" */ = {
 			isa = XCConfigurationList;
@@ -524,6 +726,7 @@
 				697F3E8C1F4B173A0014B79D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		697F3E8D1F4B173A0014B79D /* Build configuration list for PBXNativeTarget "CTLoveUITests" */ = {
 			isa = XCConfigurationList;
@@ -532,6 +735,7 @@
 				697F3E8F1F4B173A0014B79D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
