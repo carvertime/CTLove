@@ -16,7 +16,12 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    [self.nextBtn setTitle:@"home" forState:UIControlStateNormal];
     // Do any additional setup after loading the view.
+}
+
+- (void)push{
+    [self.navigationController popToRootViewControllerAnimated:YES];
 }
 
 - (void)didReceiveMemoryWarning {

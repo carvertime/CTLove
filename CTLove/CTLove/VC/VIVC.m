@@ -7,6 +7,7 @@
 //
 
 #import "VIVC.h"
+#import "VIIVC.h"
 
 @interface VIVC ()
 
@@ -16,7 +17,25 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    self.view.backgroundColor = [UIColor yellowColor];
     // Do any additional setup after loading the view.
+}
+
+- (void)push{
+    VIIVC *nextVC = [VIIVC new];
+    //创建动画
+    CATransition *animation = [CATransition animation];
+    //设置运动轨迹的速度
+    animation.timingFunction = UIViewAnimationCurveEaseInOut;
+    //设置动画类型为立方体动画
+    animation.type = @"pageCurl";
+    //设置动画时长
+    animation.duration =0.5f;
+    //设置运动的方向
+    animation.subtype =kCATransitionFromRight;
+    //控制器间跳转动画
+    [[UIApplication sharedApplication].keyWindow.layer addAnimation:animation forKey:nil];
+    [self.navigationController pushViewController:nextVC animated:NO];
 }
 
 - (void)didReceiveMemoryWarning {

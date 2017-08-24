@@ -24,6 +24,7 @@
 		697F3E781F4B173A0014B79D /* CTLoveTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 697F3E771F4B173A0014B79D /* CTLoveTests.m */; };
 		697F3E831F4B173A0014B79D /* CTLoveUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 697F3E821F4B173A0014B79D /* CTLoveUITests.m */; };
 		697F3E931F4B19880014B79D /* IVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 697F3E921F4B19880014B79D /* IVC.m */; };
+		69C1A79B1F4E9D2900F7D532 /* BaseVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 69C1A79A1F4E9D2900F7D532 /* BaseVC.m */; };
 		9A4AF51B5841EC3C46555917 /* libPods-CTLoveTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8629E872FAA360B024CB21AB /* libPods-CTLoveTests.a */; };
 		9B70E6B9A8CAEA906D6C4DE7 /* libPods-CTLove.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BF6EAD71B9B5D03A38D1F1CB /* libPods-CTLove.a */; };
 		E68D4DE4AA5A0EE5593EDD6F /* libPods-CTLoveUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AF95192C365135569C7E475E /* libPods-CTLoveUITests.a */; };
@@ -85,6 +86,9 @@
 		697F3E841F4B173A0014B79D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		697F3E911F4B19880014B79D /* IVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IVC.h; sourceTree = "<group>"; };
 		697F3E921F4B19880014B79D /* IVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IVC.m; sourceTree = "<group>"; };
+		69C1A7991F4E9D2900F7D532 /* BaseVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseVC.h; sourceTree = "<group>"; };
+		69C1A79A1F4E9D2900F7D532 /* BaseVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseVC.m; sourceTree = "<group>"; };
+		69C1A79C1F4EA1F700F7D532 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 		8629E872FAA360B024CB21AB /* libPods-CTLoveTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CTLoveTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		93DE257E0F40A06601383808 /* Pods-CTLoveUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CTLoveUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-CTLoveUITests/Pods-CTLoveUITests.release.xcconfig"; sourceTree = "<group>"; };
 		AF95192C365135569C7E475E /* libPods-CTLoveUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CTLoveUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -133,6 +137,7 @@
 		697F3E511F4B17390014B79D = {
 			isa = PBXGroup;
 			children = (
+				69C1A79C1F4EA1F700F7D532 /* PrefixHeader.pch */,
 				697F3E5C1F4B17390014B79D /* CTLove */,
 				697F3E761F4B173A0014B79D /* CTLoveTests */,
 				697F3E811F4B173A0014B79D /* CTLoveUITests */,
@@ -216,6 +221,8 @@
 				695633431F4DC046007E1929 /* IXVC.m */,
 				695633451F4DC05E007E1929 /* XVC.h */,
 				695633461F4DC05E007E1929 /* XVC.m */,
+				69C1A7991F4E9D2900F7D532 /* BaseVC.h */,
+				69C1A79A1F4E9D2900F7D532 /* BaseVC.m */,
 			);
 			path = VC;
 			sourceTree = "<group>";
@@ -519,6 +526,7 @@
 				6956332F1F4DBFC5007E1929 /* IIVC.m in Sources */,
 				6956333B1F4DC020007E1929 /* VIVC.m in Sources */,
 				697F3E931F4B19880014B79D /* IVC.m in Sources */,
+				69C1A79B1F4E9D2900F7D532 /* BaseVC.m in Sources */,
 				695633411F4DC039007E1929 /* VIIIVC.m in Sources */,
 				6956333E1F4DC02C007E1929 /* VIIVC.m in Sources */,
 				695633381F4DBFEC007E1929 /* VVC.m in Sources */,
@@ -678,6 +686,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = HG4D7RHCA9;
+				GCC_PREFIX_HEADER = /Users/gaowenjie/github/CTAPP/CTLove/CTLove/PrefixHeader.pch;
 				INFOPLIST_FILE = CTLove/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Demo.com.CTLove;
@@ -692,6 +701,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = HG4D7RHCA9;
+				GCC_PREFIX_HEADER = /Users/gaowenjie/github/CTAPP/CTLove/CTLove/PrefixHeader.pch;
 				INFOPLIST_FILE = CTLove/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Demo.com.CTLove;

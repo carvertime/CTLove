@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface IVVC : UIViewController
+@interface IVVC : BaseVC
 
 @end
